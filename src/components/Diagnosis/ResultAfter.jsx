@@ -153,8 +153,6 @@ const ResultAfter = () => {{
     </BarChart>
     </div>
     </div> 
-
-
     </div>
   );
   }
