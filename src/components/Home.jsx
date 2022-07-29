@@ -3,7 +3,6 @@ import HomeHeader from "./HomeHeader";
 import Welcome from "./Welcome";
 import Introduce from "./Introduce";
 import Ready from "./Ready";
-import HomeNotice from "./HomeNotice";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 
@@ -16,7 +15,6 @@ const Home = () => {
                 <Route path="welcome" element={<Welcome />}></Route>
                 <Route path="/introduce" element={<Introduce />}></Route>
                 <Route path="/ready" element={<Ready />}></Route>
-                <Route path="/homenotice" element={<HomeNotice />}></Route>
             </Routes>
         </div>
     );

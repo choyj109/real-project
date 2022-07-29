@@ -5,12 +5,12 @@ import {
   Bar,
   XAxis,
   Tooltip,
-
 } from "recharts";
 import {TbArrowBigDownLine} from 'react-icons/tb';
 
 
 
+// eslint-disable-next-line no-lone-blocks
 const ResultAfter = () => {{
   const resultofbefore = [
     {

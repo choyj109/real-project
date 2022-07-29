@@ -1,10 +1,13 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import TimeTable from "./TimeTable";
-import Teacher from "./Teacher";
-import GuideNav from "./GuideNav";
-import Notice from "./Notice";
-import styles from "../ChemiStory/css/index.module.css";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import TimeTable from './TimeTable';
+import Teacher from './Teacher';
+import GuideNav from './GuideNav';
+import Notice from './Notice';
+import styles from '../ChemiStory/css/index.module.css';
+import noticeData from '../../data/noticeData.json';
+import PostDetail from '../Post/PostDetail';
+import WritePostPage from '../Post/WritePostPage';
 
 const Guide = () => {
   return (
