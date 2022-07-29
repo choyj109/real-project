@@ -1,12 +1,18 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import styles from "./css/diagnosis.module.css";
+import { useState } from 'react';
 
 const DiagnosisNav = () => {
   const DiagnosisNavList  = [
-    {content: "현재상태 점검하기", href:"."},
-    {content: "진단결과 보기", href:"./result"}
+    { id: 1, content: "현재상태 점검하기", href:"." },
+    { id: 2, content: "진단결과 보기", href: "./result" }
   ];
+
+  const [currentTab, setCurrentTab] = useState(0);
+  const handleMenu = (idx) => {
+    setCurrentTab(idx);
+  };
 
   return (
     <div>
@@ -14,13 +20,17 @@ const DiagnosisNav = () => {
         <ul>
           {DiagnosisNavList.map((element, index)=>{
             return(
-              <li key={index}>
-                <NavLink to={element.href}className={({ isActive }) =>
-                                    isActive
-                                        ? `${styles.navbtn} ${styles.on}`
-                                        : `${styles.navbtn}`
-                                }>{element.content}
-                </NavLink>
+            <li
+                key={element.id}
+                className={
+                  currentTab === index
+                    ? `${styles.navbtn} ${styles.on}`
+                    : `${styles.navbtn}`
+                }
+                onClick={() => handleMenu(index)}
+                type="button"
+              >
+                <NavLink to={element.href}>{element.content}</NavLink>
               </li>
             )
           })}
