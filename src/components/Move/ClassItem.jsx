@@ -24,28 +24,40 @@ const ClassItem = ({classdata}) => {
 
   return (
     <li className={styles.itemboxs}>
-        <dl>
-        <img  className={styles.move_class_img} src={classdata.moveClassImg}/>
-           <dt className={styles.classname}>{classdata.moveClassName}</dt>
-           <dd className={styles.classinfotitle}>교육 일정 : 
-           <span className={styles.classinfo}>{classdata.moveClassDate}</span> </dd>
-           <dd className={styles.classinfotitle}> 교육 시간 : 
-           <span className={styles.classinfo}> {classdata.moveClassTime}</span></dd>
-        </dl>
+        
+        <div className={styles.moveClassImg}>
+        <img src={classdata.moveClassImg} alt={classdata.moveClassName}/>
+        </div>
+        <div className={styles.classDes}>
 
+          <div className={styles.classname}>
+            <h2>{classdata.moveClassName}</h2>
+            </div>
+
+          <div className={styles.classinfobox}>
+
+           <div className={styles.classinfotitle}>교육 일정 : 
+           <span className={styles.classinfo}> {classdata.moveClassDate}</span> </div>
+           <div className={styles.classinfotitle}> 교육 시간 : 
+           <span className={styles.classinfo}> {classdata.moveClassTime}</span></div>
+          </div>
+          
+          </div>
         <div className={styles.buttonarea}>
+
             <span className={styles.url} ref={link}>
              {classdata.moveClassUrl}
             </span>
             <botton className={styles.copybutton} onClick={toClipboard}>
-              {isCopied ? <BsFillCheckCircleFill/>  : <AiOutlineShareAlt />}
+              {isCopied ? <BsFillCheckCircleFill className={styles.urlNoneClick}/>  : <AiOutlineShareAlt className={styles.urlClick}/>}
             </botton>
  
           {isCopied && <span className={styles.urlcopy}> URL 복사 완료! </span>}
     
-
         <button className={styles.button}><a href={classdata.moveClassUrl}>바로가기</a></button>
         </div>
+
+
         </li>
 
 

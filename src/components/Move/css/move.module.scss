@@ -50,13 +50,11 @@
     width: 69.444vw;
     margin: auto;
 
-    .platformInfo{
+  .platformInfo{
       display: flex;
       justify-content: flex-start;
       align-items: center;
       position:left;
-      margin: 3rem 1rem;
-    }
     .platformLogo{
       width:5.069vw;
       height: 4.306vw;
@@ -66,7 +64,120 @@
       text-align: center;
       margin-left: 1.5vw;
     }
-  }  
+  }
+
+    .classWrap{
+      width:69.444vw;
+      margin:auto;
+      display: flex;
+    .itemboxs{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width:20.833vw;
+      border: 0.069vw solid #bcbed3;
+      border-radius: 0.694vw;
+      margin:1.036vw;
+      padding: 0 1.2vw;
+      overflow: hidden;
+      
+    .moveClassImg{
+      width: 20.713vw;
+      height:18vw;
+      border-radius:0.694vw;
+      padding: 0 0.5vw;
+      img{
+      width:100%;
+      height:18vw;
+      }
+    }
+    .classDes{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: rgb(56, 56, 56);}
+      padding-top:3vw;
+      padding-bottom: 3vw;
+      
+      .classname{
+        width:100%;
+        font-size:1.4vw;
+        font-weight: 600;
+        text-align: left;
+        h2{
+        display: block;
+        padding: 1vw 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+      }
+
+      .classinfobox{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align:left;
+      .classinfotitle{
+        font-size:1.2vw;
+        line-height: 1.2vw;
+        font-weight: 600;
+        padding:0.36vw 0;
+        .classinfo{
+          font-weight: 500;
+          font-size:1.150vw;
+          line-height: 1.2vw;
+        }
+    }
+  }
+  .buttonarea{
+    margin-top:1.5vw;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+  }
+  .copybutton{
+    cursor: pointer;
+    color:#6F76C1;
+    font-size: 1.389vw;
+  }
+  .url{
+    display: none;
+  }
+  .urlClick{
+    margin-right: 1.3vw;
+    font-size: 1.7vw;
+    line-height: 1.7vw;
+    align-items: center;
+    margin-left:2vw;
+
+  }
+  .urlNoneClick{
+    margin-right:0.7vw;
+  }
+  .urlcopy{
+    font-size:0.833vw ;
+
+  }
+  .button{
+    width: 8.333vw;
+    height:2.431vw ;
+    border: 1.2px solid #6F76C1;
+    color:#6F76C1;
+    text-align: center;
+  }
+
+}
+}
+
+
+
+    }
+  
 
 
 
@@ -76,7 +187,7 @@
 
 // ClassItem.jsx
 
-.itemboxs{
+/* .itemboxs{
   width:20.833vw;
   border: 0.069vw solid #bcbed3;
   border-radius: 0.694vw;
@@ -260,3 +371,4 @@
   
 }
 
+ */

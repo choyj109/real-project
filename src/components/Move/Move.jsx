@@ -7,6 +7,7 @@ import data from '../../data/moveData.json';
 
 
 
+
 const Move = () => {
 
 const classData = [...data]
@@ -43,11 +44,10 @@ console.log('데이터',classData)
         <h2 className={styles.platformTitle}>Zoom</h2>
       </div>
 
-      <div className={styles.classList}>
       <ul className={styles.classWrap} >
       {classData.map((classdata) => {return <ClassItem key={classdata.id} classdata={classdata} />})} 
       </ul>
-    </div>
+
 
     <div className={styles.platformInfo}>
         <img className={styles.platformLogo} src={"/Moveimg/webex.png"} alt="webex logo"></img>
