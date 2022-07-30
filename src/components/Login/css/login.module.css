@@ -40,6 +40,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(120, 122, 142, 0.6666666667);
+    z-index: 300;
   }
   .logo {
     background: url(/public/chemiverse_img/logo.png) no-repeat;

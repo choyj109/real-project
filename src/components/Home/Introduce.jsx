@@ -21,7 +21,9 @@ const Introduce = () => {
                 <div className={styles.contentBox}>
                     <div className={styles.name_meaning}>
                         <h1>Excellence & PERformance & Transformation</h1>
-                        <p>엑스퍼트컨설팅은 우리나라 기업교육의 발전에 뜻을 같이하는 컨설턴트, 전문강사, HR 전문가들의 공동출자로 설립하여국내조직의 경영혁신 및 인재육성의 엑설런스 추구를 위한 여러 영역별 사업 활동을 전개해 오고 있습니다.</p>
+                        <p>엑스퍼트컨설팅은 우리나라 기업교육의 발전에 뜻을 같이하는 컨설턴트, 전문강사, HR 전문가들의 공동출자로 설립하여국내조직의 경영혁신 및 인재육성의 엑설런스 추구를 위한 여러 영역별 사업 활동을 전개해 오고 있습니다.
+                        우리 나라 산업 교육 발전에 뜻을 같이 하는 컨설턴트, 전문강사, 전문스탭들의 공동출자로 설립되어 국내 기업의 경영혁신 활동을 전개하고 있습니다.
+                        </p>
                     </div>
                     <div className={styles.infoBox}>
                         <div className={styles.info_left}>
@@ -37,7 +39,7 @@ const Introduce = () => {
                         <div className={styles.info_right}>
                         <div className={styles.info}>
                             <div className={styles.bullet}>사업내용</div>
-                            <div className={styles.text}>채용컨설팅,NCS,진단평가,집체교육</div>
+                            <div className={styles.text}>채용컨설팅,NCS,진단평가,집체교육 원격교육<br/> 연수원 사업 HRD컨설팅</div>
                         </div>
                         <div className={styles.info}>
                             <div className={styles.bullet}>임직원수</div>
@@ -46,9 +48,12 @@ const Introduce = () => {
                         </div>
                     </div>
                 </div>
-                <iframe src="https://www.youtube.com/embed/XFc-p5Rw8Ao" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  picture-in-picture" allowFullScreen></iframe>
+                
             </div>
             </div>
+            <p className={styles.pin}><BsCheckLg /><strong className={styles.tit}>회사 소개 영상
+						 </strong></p>
+            <iframe src="https://www.youtube.com/embed/XFc-p5Rw8Ao" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  picture-in-picture" allowFullScreen></iframe>
             <div className={styles.value}>
             <p className={styles.pin}><BsCheckLg /><strong className={styles.tit}>가치체계
 						 </strong></p>
