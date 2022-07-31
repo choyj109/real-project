@@ -92,7 +92,13 @@ const LearningModule = ({ module }) => {
                             </Modal>
                         </div>
                         <div className={styles.textBox}>
-                            <TbSlideshow />
+                            <img
+                                src={
+                                    process.env.PUBLIC_URL +
+                                    "/chemiverse_img/gallery.png"
+                                }
+                                alt=""
+                            />
                             Think
                             <br />
                             Insight
@@ -116,7 +122,13 @@ const LearningModule = ({ module }) => {
                             </div>
 
                             <div className={styles.textBox}>
-                                <FiYoutube />
+                                <img
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "/chemiverse_img/video-marketing.png"
+                                    }
+                                    alt=""
+                                />
                                 협업 시뮬레이션
                                 <br />
                                 in 메타버스
@@ -149,7 +161,13 @@ const LearningModule = ({ module }) => {
                                 </Modal>
                             </div>
                             <div className={styles.textBox}>
-                                <FiYoutube />
+                                <img
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "/chemiverse_img/video-marketing.png"
+                                    }
+                                    alt=""
+                                />
                                 협업 시뮬레이션
                                 <br />
                                 in 메타버스

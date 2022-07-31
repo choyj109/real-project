@@ -339,14 +339,16 @@ a {
   width: 100%;
   height: 100%;
   margin-left: -0.694vw;
-  border: 2px solid rgb(111, 118, 193);
+  border: 2px solid #ccc;
   border-left: none;
   top: 50%;
   font-size: 1.389vw;
   flex-direction: column;
   line-height: 1;
+  font-weight: 100;
 }
-.moduleLearning .learningContents .learningContent .textBox svg {
+.moduleLearning .learningContents .learningContent .textBox img {
+  width: 3.472vw;
   margin-bottom: 1.389vw;
   font-size: 3.472vw;
 }
@@ -570,14 +572,14 @@ section {
   .moduleBox .moduleLearning .learningContents .learningContent .textBox {
     display: flex;
     height: 13.889vw;
-    border-left: 2px solid #6f76c1;
+    border-left: 2px solid #ccc;
     border-top: none;
     border-radius: 0 0 10px 10px;
     margin-left: 0;
     margin-top: -5px;
     flex-direction: row;
   }
-  .moduleBox .moduleLearning .learningContents .learningContent .textBox svg {
+  .moduleBox .moduleLearning .learningContents .learningContent .textBox img {
     margin-bottom: 0;
     margin-right: 2.778vw;
   }

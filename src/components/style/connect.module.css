@@ -121,25 +121,29 @@
 @media (max-width: 720px) {
   .connectMain .slidingList {
     display: block;
+    height: 100vh;
   }
   .connectMain .slidingList .slidingItem {
     width: 90vw;
     margin: auto;
-    height: 15vh;
+    height: 20vh;
     margin-top: -3.472vw;
   }
   .connectMain .slidingList .slidingItem .connectTitle {
     display: flex;
     font-size: 4.167vw;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     padding: 0;
     margin: 0;
-    width: 95%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.536);
   }
   .connectMain .slidingList .slidingItem .connectTitle svg {
     font-size: 10vw;
-    color: white;
     height: 7.5vh;
+    color: white;
   }
   .connectMain .slidingList .slidingItem .connectTitle p {
     line-height: 11vw;
@@ -153,6 +157,9 @@
     font-size: 4.167vw;
     top: 11.111vw;
     right: 5.556vw;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 0px 15px white;
+    flex-direction: row;
   }
   .connectMain .slidingList .on .connectTitle svg {
     opacity: 0;
