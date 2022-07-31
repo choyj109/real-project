@@ -119,12 +119,12 @@ const ResultBefore = () => {
   <div className={styles.resultbefore}>
     <div className={styles.chartcontainer}>
       <div className={styles.chartbox} id="chart1">
-        <div className={styles.chartitem}>
-        <RadarChart
+        <div>
+        <RadarChart className= {styles.chartitem}
 
         outerRadius={50}
-        width={225}
-        height={225}
+        width={200}
+        height={200}
         data={chartdata1}
       >
         <PolarGrid />
@@ -143,11 +143,12 @@ const ResultBefore = () => {
     </div>
     
     <div className={styles.chartbox} id="chart2">
-    <div className={styles.chartitem}>
-    <RadarChart
-        outerRadius={50}
-        width={225}
-        height={225}
+    <div>
+    <RadarChart className= {styles.chartitem}
+
+      outerRadius={50}
+      width={200}
+      height={200}
         data={chartdata2}
       >
         <PolarGrid />
@@ -167,11 +168,12 @@ const ResultBefore = () => {
 
 
     <div className={styles.chartbox} id="chart3">
-    <div className={styles.chartitem}>
-    <RadarChart
+    <div>
+    <RadarChart className= {styles.chartitem}
+
         outerRadius={50}
-        width={225}
-        height={225}
+        width={200}
+        height={200}
         data={chartdata3}
       >
         <PolarGrid />
@@ -190,11 +192,11 @@ const ResultBefore = () => {
     </div>
 
     <div className={styles.chartbox} id="chart4">
-          <div className={styles.chartitem}>
-    <RadarChart
+          <div>
+      <RadarChart className= {styles.chartitem}
         outerRadius={50}
-        width={225}
-        height={225}
+        width={200}
+        height={200}
         data={chartdata4}
       >
         <PolarGrid />

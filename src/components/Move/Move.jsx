@@ -1,4 +1,3 @@
-
 import React from 'react';
  // import { useState, useEffect } from 'react';
 import styles from "./css/move.module.css"
@@ -7,10 +6,10 @@ import data from '../../data/moveData.json';
 
 
 
+
 const Move = () => {
 
 const classData = [...data]
-
 ;
 
   return (
@@ -42,39 +41,34 @@ const classData = [...data]
         <h2 className={styles.platformTitle}>Zoom</h2>
       </div>
 
-      <div className={styles.classList}>
       <ul className={styles.classWrap} >
       {classData.map((classdata) => {return <ClassItem key={classdata.id} classdata={classdata} />})} 
       </ul>
-    </div>
+
 
     <div className={styles.platformInfo}>
         <img className={styles.platformLogo} src={"/Moveimg/webex.png"} alt="webex logo"></img>
         <h2 className={styles.platformTitle}>Webex</h2>
       </div>
-      <div className='move_classList'>
-      <ul className="class_wrap" >
+      <ul className={styles.classWrap} >
       {classData.map((classdata) => {return <ClassItem key={classdata.id} classdata={classdata} />})} 
       </ul>
-    </div>
+
     <div className={styles.platformInfo}>
         <img className={styles.platformLogo} src={"/Moveimg/gather.webp"} alt="gather logo"></img>
         <h2 className={styles.platformTitle} >Gather</h2>
       </div>
-      <div className='move_classList'>
-      <ul className="class_wrap" >
+      <ul className={styles.classWrap} >
       {classData.map((classdata) => {return <ClassItem key={classdata.id} classdata={classdata} />})} 
       </ul>
-    </div>
+
     <div className={styles.platformInfo}>
         <img className={styles.platformLogo} src={"/Moveimg/zep.png"} alt="zep logo"></img>
         <h2 className={styles.platformTitle}>Zep</h2>
       </div>
-      <div className='move_classList'>
-      <ul className="class_wrap" >
+      <ul className={styles.classWrap} >
       {classData.map((classdata) => {return <ClassItem key={classdata.id} classdata={classdata} />})} 
       </ul>
-    </div>
     </div>
     </div>
 

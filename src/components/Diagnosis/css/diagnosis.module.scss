@@ -267,28 +267,28 @@ input[type="text"]{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height:100%;
   .chartcontainer{
     width: 100%;
     margin-top:3vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 1vw;
     flex-wrap: wrap;
+    margin: 5vw auto;
   }
   .chartbox{
-    width:16.667vw;
-    height:16.667vw;
     font-size: 0.847vw;
     text-align: center;
-    line-height:0.847vw; ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    line-height:0.847vw; 
+    display: block;
   }
   .chartitem{
     border-radius: 50%;
     background-color: #f9f9ffee;
+    position: fixed;
+
   }
   .charttitle{
     font-size:1.389vw;
@@ -297,6 +297,7 @@ input[type="text"]{
     color:#222226;
     cursor: pointer;
     padding-top:1.25vw;
+    margin:1vw auto;
   }
 }
 
@@ -334,7 +335,7 @@ input[type="text"]{
         width: 3.472vw;
         height:3.472vw;
         border-radius: 50%;
-        background-color: #f74418;
+        background-color: #6F76C1;
         color:#fff;
         line-height:3.472vw;
         font-style: italic;
@@ -361,12 +362,9 @@ input[type="text"]{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  .resultChartName{ 
-    font-size: 1.389vw;
-    font-weight: bold;
-    line-height: 1.389vw;
-    text-align: left;
-  }
+  flex-wrap: wrap;
+  width:100%;
+
 
 .afterResult{
   display: flex;
@@ -459,9 +457,7 @@ input[type="text"]{
       width: 30vw;
       height: auto;
     }
-  }
 
-  //MoveNav
   .nav ul li {
     color: #6f76c1;
     border: none;
@@ -495,6 +491,8 @@ input[type="text"]{
       border-bottom: 5px solid #424888;
     }
   }
+}
+
 
   .presentBefore{
     width:100%;
@@ -530,7 +528,7 @@ input[type="text"]{
     border-radius: 0.694vw;
     padding-top: 2.083vw;
     padding-bottom: 4.861vw;
-    background-color: #fafaff;
+    background-color: #fafafc;
     border:none;
     .testName{
       background-color: #4e559a;
@@ -619,26 +617,47 @@ input[type="text"]{
     .chartcontainer{
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
       padding: 1vw;
-    }
-    .chartbox{
-      width:16.667vw;
-      height:16.667vw;
-      font-size: 0.847vw;
-      text-align: center;
-      line-height:0.847vw; ;
-      display: flex;
-      justify-content: center;
       align-items: center;
+      height:100%;
     }
-    .chartitem{
-      display: none;
+    .charttitle{
+      margin:2vw auto;
     }
   }
+
+
+.afterResult{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:2.083vw 3.125vw;}
+
+.resultChartTitlebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .resultChartName{
+    display: none;
+  p{
+    font-size: 1.972vw;
+    color:#272728;
+    padding-left:0.347vw;
+    color:red;
+    
+  }}
+  .resultChartImg{
+  display:none;
+  }
+.beforeChart{
+  font-size:3.211vw;
+  font-weight: 500;
+  line-height: 3.211vw;
 }
-
-
-
-
+.arrowIcon{
+  font-size: 8.472vw;
+  color: #58585d;
+  margin: 3.389vw auto;
+}
+}

@@ -249,29 +249,28 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
 }
 .resultbefore .chartcontainer {
   width: 100%;
   margin-top: 3vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 1vw;
   flex-wrap: wrap;
+  margin: 5vw auto;
 }
 .resultbefore .chartbox {
-  width: 16.667vw;
-  height: 16.667vw;
   font-size: 0.847vw;
   text-align: center;
   line-height: 0.847vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
 }
 .resultbefore .chartitem {
   border-radius: 50%;
   background-color: rgba(249, 249, 255, 0.9333333333);
+  position: fixed;
 }
 .resultbefore .charttitle {
   font-size: 1.389vw;
@@ -280,6 +279,7 @@
   color: #222226;
   cursor: pointer;
   padding-top: 1.25vw;
+  margin: 1vw auto;
 }
 
 .undercontentsarea {
@@ -319,7 +319,7 @@
   width: 3.472vw;
   height: 3.472vw;
   border-radius: 50%;
-  background-color: #f74418;
+  background-color: #6F76C1;
   color: #fff;
   line-height: 3.472vw;
   font-style: italic;
@@ -341,12 +341,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-.resutlAfterContainer .resultChartName {
-  font-size: 1.389vw;
-  font-weight: bold;
-  line-height: 1.389vw;
-  text-align: left;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .resutlAfterContainer .afterResult {
   display: flex;
@@ -432,7 +428,7 @@
     width: 30vw;
     height: auto;
   }
-  .nav ul li {
+  .diagnosis .nav ul li {
     color: #6f76c1;
     border: none;
     margin-bottom: 5vw;
@@ -444,7 +440,7 @@
     font-size: 3vw;
     font-weight: 500;
   }
-  .nav ul li a {
+  .diagnosis .nav ul li a {
     display: block;
     width: 100%;
     height: 100%;
@@ -452,10 +448,10 @@
     justify-content: center;
     align-items: center;
   }
-  .nav ul li * {
+  .diagnosis .nav ul li * {
     text-decoration: none;
   }
-  .navbtn.on {
+  .diagnosis .navbtn.on {
     color: #424888;
     font-weight: 700;
     font-size: 3vw;
@@ -494,7 +490,7 @@
     border-radius: 0.694vw;
     padding-top: 2.083vw;
     padding-bottom: 4.861vw;
-    background-color: #fafaff;
+    background-color: #fafafc;
     border: none;
   }
   .formArea .testName {
@@ -574,21 +570,44 @@
   .resultbefore .chartcontainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 1vw;
-  }
-  .resultbefore .chartbox {
-    width: 16.667vw;
-    height: 16.667vw;
-    font-size: 0.847vw;
-    text-align: center;
-    line-height: 0.847vw;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    height: 100%;
   }
-  .resultbefore .chartitem {
+  .resultbefore .charttitle {
+    margin: 2vw auto;
+  }
+  .afterResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.083vw 3.125vw;
+  }
+  .resultChartTitlebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .resultChartName {
     display: none;
+  }
+  .resultChartName p {
+    font-size: 1.972vw;
+    color: #272728;
+    padding-left: 0.347vw;
+    color: red;
+  }
+  .resultChartImg {
+    display: none;
+  }
+  .beforeChart {
+    font-size: 3.211vw;
+    font-weight: 500;
+    line-height: 3.211vw;
+  }
+  .arrowIcon {
+    font-size: 8.472vw;
+    color: #58585d;
+    margin: 3.389vw auto;
   }
 }/*# sourceMappingURL=diagnosis.module.css.map */
