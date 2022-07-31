@@ -87,7 +87,7 @@ const ResultAfter = () => {{
         </div>
         <div className={styles.beforeChart}>
           <BarChart
-      width={500}
+      width={400}
       height={300}
       data={resultofbefore}
       margin={{
@@ -125,7 +125,7 @@ const ResultAfter = () => {{
         </div>
         <div className={styles.beforeChart}>
           <BarChart
-      width={500}
+      width={400}
       height={300}
       data={resultofafter}
       margin={{
