@@ -211,8 +211,101 @@
     }
 
     .moveInner {
-        .classWrap {
+        .classWrap{
             flex-direction: column;
         }
+        .itemboxs {
+            display: flex;
+            flex-direction: row !important;
+            margin:auto;
+            justify-content: center !important;
+            align-items: center;
+            width: 69vw !important;
+            border: 0.069vw solid #bcbed3;
+            border-radius: 0.694vw;
+            overflow: hidden;
+            padding: 1vw;
+
+            .moveClassImg {
+                img {
+                    width: 20vw !important;
+                    height: 20vw !important;
+                }
+            }
+            .classDes {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                color: rgb(56, 56, 56);
+                margin-left:2vw;
+            }
+
+            .classname {
+                width: 100%;
+                font-size: 1.6vw;
+                font-weight: 600;
+                text-align: left;
+                h2 {
+                    display: block;
+                    padding: 1vw 0;
+                    white-space: nowrap;
+                    overflow:auto;
+                }
+            }
+
+            .classinfobox {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                text-align: left;
+                position: relative;
+                .classinfotitle {
+                    display: none;
+                }
+            }
+            .buttonarea {
+                margin-top: 1.5vw;
+                margin-right:2vw;
+                margin-bottom:2vw
+            }
+            .copybutton {
+                cursor: pointer;
+                color: #6f76c1;
+                font-size: 1.389vw;
+            }
+            .url {
+                display: none;
+            }
+            .urlClick {
+                margin-right: 1.3vw;
+                font-size: 1.7vw;
+                line-height: 1.7vw;
+                align-items: center;
+                margin-left: 2vw;
+            }
+            .urlNoneClick {
+                margin-right: 0.7vw;
+            }
+            .urlcopy {
+                font-size: 0.833vw;
+            }
+            .button {
+                width: 10.333vw !important;
+                height: 4.431vw !important;
+                border: 1.2px solid #6f76c1;
+                color: #6f76c1;
+                position: relative;
+            a{
+                font-size:0.4vw !important;
+                text-align: center;
+            }
+            }
+        }
+                
+
+        }
     }
-}
+
