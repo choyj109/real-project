@@ -133,7 +133,7 @@
 }
 .moveInner .classWrap .itemboxs .copybutton {
   cursor: pointer;
-  color: #6F76C1;
+  color: #6f76c1;
   font-size: 1.389vw;
 }
 .moveInner .classWrap .itemboxs .url {
@@ -155,8 +155,8 @@
 .moveInner .classWrap .itemboxs .button {
   width: 8.333vw;
   height: 2.431vw;
-  border: 1.2px solid #6F76C1;
-  color: #6F76C1;
+  border: 1.2px solid #6f76c1;
+  color: #6f76c1;
   text-align: center;
 }
 
@@ -194,5 +194,8 @@
   .move .mainImg {
     width: 30vw;
     height: auto;
+  }
+  .moveInner .classWrap {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=move.module.css.map */

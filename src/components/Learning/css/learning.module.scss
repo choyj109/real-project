@@ -522,6 +522,8 @@ section {
         }
         .navbtn {
             &.on {
+                color: #424888;
+                font-weight: 700;
                 font-size: 3vw;
                 transition: all 0.2s;
                 border-bottom: 5px solid #424888;
