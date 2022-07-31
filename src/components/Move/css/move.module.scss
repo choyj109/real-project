@@ -48,7 +48,7 @@
 
 .moveInner{
     width: 69.444vw;
-    margin: auto;
+    margin: 4vw auto;
 
   .platformInfo{
       display: flex;
@@ -78,14 +78,13 @@
       border: 0.069vw solid #bcbed3;
       border-radius: 0.694vw;
       margin:1.036vw;
-      padding: 0 1.2vw;
       overflow: hidden;
+      padding:1vw;
       
     .moveClassImg{
       width: 20.713vw;
       height:18vw;
       border-radius:0.694vw;
-      padding: 0 0.5vw;
       img{
       width:100%;
       height:18vw;
@@ -98,8 +97,6 @@
       flex-direction: column;
       align-items: flex-start;
       color: rgb(56, 56, 56);}
-      padding-top:3vw;
-      padding-bottom: 3vw;
       
       .classname{
         width:100%;
