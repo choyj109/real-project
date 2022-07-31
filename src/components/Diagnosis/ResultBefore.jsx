@@ -123,8 +123,8 @@ const ResultBefore = () => {
         <RadarChart className= {styles.chartitem}
 
         outerRadius={50}
-        width={200}
-        height={200}
+        width={225}
+        height={225}
         data={chartdata1}
       >
         <PolarGrid />
@@ -147,8 +147,8 @@ const ResultBefore = () => {
     <RadarChart className= {styles.chartitem}
 
       outerRadius={50}
-      width={200}
-      height={200}
+      width={225}
+      height={225}
         data={chartdata2}
       >
         <PolarGrid />
@@ -172,8 +172,8 @@ const ResultBefore = () => {
     <RadarChart className= {styles.chartitem}
 
         outerRadius={50}
-        width={200}
-        height={200}
+        width={225}
+        height={225}
         data={chartdata3}
       >
         <PolarGrid />
@@ -195,8 +195,8 @@ const ResultBefore = () => {
           <div>
       <RadarChart className= {styles.chartitem}
         outerRadius={50}
-        width={200}
-        height={200}
+        width={225}
+        height={225}
         data={chartdata4}
       >
         <PolarGrid />

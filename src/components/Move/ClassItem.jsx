@@ -24,7 +24,7 @@ const ClassItem = ({classdata}) => {
 
   return (
     <li className={styles.itemboxs}>
-        
+      
         <div className={styles.moveClassImg}>
         <img src={classdata.moveClassImg} alt={classdata.moveClassName}/>
         </div>

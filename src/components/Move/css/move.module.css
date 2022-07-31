@@ -198,4 +198,89 @@
   .moveInner .classWrap {
     flex-direction: column;
   }
+  .moveInner .itemboxs {
+    display: flex;
+    flex-direction: row !important;
+    margin: auto;
+    justify-content: center !important;
+    align-items: center;
+    width: 69vw !important;
+    border: 0.069vw solid #bcbed3;
+    border-radius: 0.694vw;
+    overflow: hidden;
+    padding: 1vw;
+  }
+  .moveInner .itemboxs .moveClassImg img {
+    width: 20vw !important;
+    height: 20vw !important;
+  }
+  .moveInner .itemboxs .classDes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(56, 56, 56);
+    margin-left: 2vw;
+  }
+  .moveInner .itemboxs .classname {
+    width: 100%;
+    font-size: 1.6vw;
+    font-weight: 600;
+    text-align: left;
+  }
+  .moveInner .itemboxs .classname h2 {
+    display: block;
+    padding: 1vw 0;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .moveInner .itemboxs .classinfobox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    position: relative;
+  }
+  .moveInner .itemboxs .classinfobox .classinfotitle {
+    display: none;
+  }
+  .moveInner .itemboxs .buttonarea {
+    margin-top: 1.5vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+  }
+  .moveInner .itemboxs .copybutton {
+    cursor: pointer;
+    color: #6f76c1;
+    font-size: 1.389vw;
+  }
+  .moveInner .itemboxs .url {
+    display: none;
+  }
+  .moveInner .itemboxs .urlClick {
+    margin-right: 1.3vw;
+    font-size: 1.7vw;
+    line-height: 1.7vw;
+    align-items: center;
+    margin-left: 2vw;
+  }
+  .moveInner .itemboxs .urlNoneClick {
+    margin-right: 0.7vw;
+  }
+  .moveInner .itemboxs .urlcopy {
+    font-size: 0.833vw;
+  }
+  .moveInner .itemboxs .button {
+    width: 10.333vw !important;
+    height: 4.431vw !important;
+    border: 1.2px solid #6f76c1;
+    color: #6f76c1;
+    position: relative;
+  }
+  .moveInner .itemboxs .button a {
+    font-size: 0.4vw !important;
+    text-align: center;
+  }
 }/*# sourceMappingURL=move.module.css.map */
